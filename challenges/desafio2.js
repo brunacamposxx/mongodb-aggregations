@@ -9,7 +9,7 @@ db.movies.aggregate([
   },
   {
     $project: {
-      título: "$title",
+      titulo: "$title",
       avaliado: "$rated",
       notaIMDB: "$imdb.rating",
       votosIMDB: "$imdb.votes",
